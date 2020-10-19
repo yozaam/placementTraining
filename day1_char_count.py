@@ -1,3 +1,5 @@
+# Required concepts: https://www.w3schools.com/python/python_intro.asp Everything till for loops
+
 countOfChar = {
  #store the count of all chars
  #as a pair
