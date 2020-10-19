@@ -1,5 +1,7 @@
 # Required concepts: https://www.w3schools.com/python/python_intro.asp Everything till for loops
 
+print('Question: Find the frequency/no. of occurances of each character in a string.')
+
 countOfChar = {
  #store the count of all chars
  #as a pair
@@ -17,4 +19,5 @@ for char in string:
     countOfChar[char] = 1
     #he was not found so i initilized him
 
+print('Answer:')
 print(countOfChar)
