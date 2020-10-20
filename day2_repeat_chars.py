@@ -11,6 +11,7 @@ for i in range(len(li)):
 
 #single line let's repeat them again
 result = [letter*2 for letter in li]
+
 print('Answer:')
 print(result)
 
