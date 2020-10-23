@@ -16,4 +16,3 @@ count = len(number) - len(number.replace('2',''))
 print('Answer:')
 print('2 has ',count,'occurances')
 
-# If you are same as your reverse, you are a palindrome
