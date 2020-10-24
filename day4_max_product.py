@@ -13,8 +13,3 @@ last = li[-1]*li[-2]
 
 print('Answer:')
 print(max(first,last))
-
-
-
-
-
