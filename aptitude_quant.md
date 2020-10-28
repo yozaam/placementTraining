@@ -149,3 +149,86 @@ answer is 35 , 5*3 == 15 , and -1*15 == -15
 Other method: if he got all correct, `50 correct =150mks`  
 if `49 correct = 146` thus `1 wrong = net loss of -4`  
 `he lost 150-90=60mks` so `1 is to -4 & 60 is to ?` so `wrong=60/4=15` :D
+
+## Day 3 Time and Work
+
+Q. a, b take 12, 36 days to do the work,  
+*how many days will they take together?*
+
+school method,  
+`rate=w/12 + w/36 = 4w/36`  
+`time=1/rate=9 days`
+
+better method ignore variables w,  
+who's more efficient? a  
+in terms of quantitative difference,  
+assume the work as a number divisible by all  
+`let w = 36, so daily a = 3, b = 1`
+
+sirs method,  
+a alone is 12, so combined < 12 for sure!
+either 9 or 10 -> 10 has a 5 as factor  
+but nobody else has a 5  
+substitute 9!
+`so a does 9/12 of w , remaining 1/4 done by b  
+b takes 36 alone, how much for 1/4 = 36/4=9`   
+
+Q. p, q take 15, 21 days to do the work.  
+p joins after q and the work is done in 14 days  
+*when did p join?*
+options: 8,7,6,9,12  
+
+`let w = [l]cm(15,21) = 105`  
+efficiency: `p = 7, q = 5`  
+work done by q: `14q = 70`  
+`remaining for p = 35`
+`days for p = 35/7 = 5`  
+`joining date = 14 - 5 = 9`  
+
+sirs method,  
+`q is doing 14/21 = 2/3rd of the job`  
+`remaining 1/3rd , p takes 15/3 = 5`  
+so he needs to join on 9th day!  
+
+Q. a is twice as god as b, together they take 14 days,  
+*how many days will a take alone*
+
+`let w = 42`
+`daily w = 3`
+`a = 2, b = 1`
+`a will take 42/2 = 21 days`
+
+other method don't assume w
+daily : `a = 2 , b = 1 , together = 3`  
+`1 day -> 3 units,  
+14 days -> 3x14 units = 42 units`
+
+Q. m and n take 30 days  
+n works for 20 days and leaves, m takes the remaining 20 days to complete the work  
+n alone will take how long?
+
+`let w = 60`  
+`m+n = 2`  
+`20(m + n) + 20(m) = work done in 40 days`  
+`substitute m = 1, n = 1`  
+`a will take 60/1 days`
+
+Q. two pipes fill in 30, 40 mins third pipe drains in 60 *how long to full tank?*  
+`let w = 120L`  
+`fill = 120/30L/m + 120/40L/m - 120/60L/m =5L/m`  
+`time = 120/5 m = 24`
+
+
+Q. a,b fill in 20,30 mins c can drain full tank in x mins  
+*all open then filled in 15 mins, what's x?*  
+
+`let w = 60L`
+`fill a+b = 60/20 L/m + 60/30 L/m = 5 L/m`
+`15 mins so required = 60/15 L/m = 4L/m`
+`so drain = 5-4 = 1 L/m'
+`thus full drain = 1 *60 = 60 mins`
+
+sirs method:  
+`a = 15/20 = 75% `  
+`b = 15/30 = 50% `  
+`overflow = 25% in 15 mins, 100% in 15x4=60 mins :)`
