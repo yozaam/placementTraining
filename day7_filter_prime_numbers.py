@@ -3,6 +3,7 @@
 print('Question: prime numbers in list,')
 
 def check_prime(num):
+  # note: you can end the for loop at √num
   for i in range(2,num):
     if num == 1:
       return False
