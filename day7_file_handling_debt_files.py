@@ -1,5 +1,4 @@
 # Required concepts: https://www.w3schools.com/python/python_file_handling.asp file handling
-import os
 
 print('Question: Find money owed to friends')
 
