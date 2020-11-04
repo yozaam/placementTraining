@@ -235,11 +235,80 @@ sirs method:
 
 ## Day 5, Time Speed Distance
 
-`ST = D`  
+### `ST = D`  
 
 Case: T is constant: `S is directly proportional to D`  
 
 Case: S is constant: `T is directly proportional to D`
 
 Case D is constant:  `S is inversely proportional to T`
+
+### Average speed
+
+Avg Speed of `a, b != (a + b) / 2`  
+it is `total dist/ total time` (need more info ^^)
+
+Case: T is constant: `avg = (a + b) / 2`
+
+Case: D is constant: `avg = 2ab/(a+b)`  
+
+### Relative speed
+
+Case: two bodies in same direction: `rel = |s1 - s2|`
+
+Case: two bodies in diff direction: `rel = s1 + s2` (can derive from above, `s1 - -s2` vectors on the graph are in different directions)
+
+Time to overtake?
+They are touching rn,
+`((()))[[[[]]]]`
+we want 
+`[[[[]]]]((()))`
+`distance = l1 + l2` so `time = (l1+l2)/(rel) ->(- or + from the above relative equation)`
+
+if l2 was negligible(like a single person)
+
+#### Streams and boats
+
+Your effective speed is `stream + boat` or `stream - boat` if direction is same or opposite(you will go in the stronger direction) respectively
+
+Q. if person was 3kmph faster, he would take 2 hrs less. if he was 4kmph slower he would take 5 more hrs
+
+```
+(s+3)(t-2) = (s-4)(t+5)
+3t - 2s -6 = 5s - 4t - 20
+7t = 7s - 14
+s - t = 2 -> i
+also!
+st = (s+3)(t-2)
+-2s + 3t = 6 -> ii
+2s  - 2t = 4 -> i
+_____________ -> summation
+0s  + t  = 10
+
+t = 10, s = 12, d = 120 :)
+```
+
+Q. car covers distance from town a to b at 70 kmph
+b to a at 90 kmph what is the avg speed
+
+case:avg when d is constant `avg = 2ab/(a+b)`
+`avg = 12600 / 160 = 78.75`
+
+Q. train travels with an avg speed of 60kmph without stoppages, with stoppages it travels 40kmph
+
+Unitary method...
+or Easy Formula: 
+`t = 60 * (wo stoppage S  -  w stoppage S)/wo stoppage S` 
+60 is for minutes -> 60 * (60-40)/(60) = 20 mins
+
+Q. man walks at 10kmph every km he rests for 5 mins, how much time for 5km ?
+```
+10 km -> 60 mins
+1 km -> 6 mins
+```
+so total time for `1 km = 6 mins + 5 mins rest = 11`
+
+so 5km != 5 * 11 = 55 NO last km he won't take the rest!!!!!!
+so 4 gaps in 5 km ;)
+so 4 * 11 + 6 = 50 mins
 
