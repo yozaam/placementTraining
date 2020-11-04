@@ -232,3 +232,14 @@ sirs method:
 `a = 15/20 = 75% `  
 `b = 15/30 = 50% `  
 `overflow = 25% in 15 mins, 100% in 15x4=60 mins :)`
+
+## Day 5, Time Speed Distance
+
+`ST = D`  
+
+Case: T is constant: `S is directly proportional to D`  
+
+Case: S is constant: `T is directly proportional to D`
+
+Case D is constant:  `S is inversely proportional to T`
+

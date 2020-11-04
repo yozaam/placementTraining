@@ -1,27 +1,15 @@
-# Required concepts: https://www.w3schools.com/python/python_file_handling.asp file handling
-import os
+# Required concepts: https://www.w3schools.com/python/python_intro.asp OOPS & list comprehension
 
-print('Question: Find money owed to friends')
+print('Question: Make a list of objects with different names')
 
+class Bird:
+  def __init__(self,name):
+    # this constructor creates a Bird with name
+    self.name = name
 
-def update_file(name, amount):
-    path = 'tmp/' + name + '.txt'
-    # get current amount
-    reader = open(path, 'r')
-    current_amount = int('0'+reader.read())
-    # write the new amount
-    writer = open(path, 'w')
-    writer.write(str(current_amount + amount))
+all_names = ['parrot', 'ostrich']
 
+all_birds = [Bird(name) for name in all_names]
 
-names = ['raj', 'riya', 'raj']
-amounts = [1000, 200, 300]
-
-# # first make empty files for all :)
-for name in names:
-    open('tmp/'+name+'.txt','w')
-
-for name, amount in zip(names, amounts):
-    update_file(name, amount)
-
-print('Made the files with total debts')
+for bird in all_birds:
+  print(bird.name)
