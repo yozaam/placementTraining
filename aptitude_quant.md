@@ -312,3 +312,32 @@ so 5km != 5 * 11 = 55 NO last km he won't take the rest!!!!!!
 so 4 gaps in 5 km ;)
 so 4 * 11 + 6 = 50 mins
 
+## Day 6, Partnerships
+
+Case: ratio of investment together
+
+a & b want to set up an entertainment center outside a clg campus.
+a invests 5000, b 2000``
+`ratio 5:2`
+
+EOD profit is 14000 
+thus `profit(a) = 14k * 5 ÷ 7 = 10k`  
+`profit(b) = 4k`
+
+Case: investor + late investor/early spectator
+
+a invests 10k b doesn't invest
+
+then after 2 months, he sees the success and invests 8k
+
+thus , `a = 10k for 12 months, b = 8k for 10 months`
+`ratio = 120 : 80`
+
+Case: invest together 
+
+a invests 10k, b 5k at the start
+`ratio = 2:1`
+
+after 5 months, b is sad or happy so he increases or decreases his investment, now the ratio becomes
+
+`10k * 12  : 5k * 5 + (5k ± change) * 7`
