@@ -341,3 +341,18 @@ a invests 10k, b 5k at the start
 after 5 months, b is sad or happy so he increases or decreases his investment, now the ratio becomes
 
 `10k * 12  : 5k * 5 + (5k ± change) * 7`
+
+
+## Simple & Compound Interest
+```
+          |    SI           |   CI
+amount    |  p + pnr/100    | p (1 + r/100)^n
+interest  |      pnr/100    | p (1 + r/100)^n - p
+```
+
+what if it is a quarterly rate?
+for SI: divide r by 4
+for CI: divide r by 4 and multiply n by 4 in the exponent
+
+formula in two years, given any of these:
+`CI - SI = p (r/100)^2`
